@@ -48,7 +48,7 @@ jobs:
          gh release download -R github/codeql-coding-standards -p code-scanning-cpp-query-pack-v1.1.0.zip v1.1.0
          unzip code-scanning-cpp-query-pack-v1.1.0.zip
       env: 
-         GH_TOKEN: ${{ secrets.CODING_STANDARDS_PAT_EG2 }}
+         GH_TOKEN: ${{ secrets.CODING_STANDARDS_PAT }}
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
@@ -61,7 +61,7 @@ jobs:
         # queries: ./path/to/local/query, your-org/your-repo/queries@main
         tools: https://github.com/github/codeql-action/releases/download/codeql-bundle-20220120/codeql-bundle-linux64.tar.gz
         queries: + ./codeql-coding-standards/cpp/autosar/src/codeql-suites/autosar-default.qls, ./codeql-coding-standards/cpp/cert/src/codeql-suites/cert-default.qls, security-extended
-        external-repository-token: ${{ secrets.CODING_STANDARDS_PAT_EG2 }}
+        external-repository-token: ${{ secrets.CODING_STANDARDS_PAT }}
 
     # Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
