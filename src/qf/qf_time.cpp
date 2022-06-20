@@ -568,8 +568,8 @@ QTimeEvtCtr QTimeEvt::currCtr(void) const noexcept {
 
 namespace demo {
     
-    #include "stddef.h"
-#include "stdexcept.h"
+#include <iostream>
+#include <string>
 
 class ClassA {
   ~ClassA() noexcept(false) { throw std::exception(); } // NON_COMPLIANT
