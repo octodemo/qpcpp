@@ -563,10 +563,6 @@ QTimeEvtCtr QTimeEvt::currCtr(void) const noexcept {
 
     return ret;
 }
-
-} // namespace QP
-
-namespace demo {
     
 #include <string>
 
@@ -645,7 +641,7 @@ void swap(ClassB &lhs, ClassB &rhs) noexcept(
   throw std::exception();
 };
     
-} // namespace demo
+} // namespace QP
 
 //============================================================================
 // NOTE1:
