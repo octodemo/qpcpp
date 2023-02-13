@@ -1,7 +1,7 @@
 ![QP Framework](doxygen/images/qp_banner.jpg)
 
 # What's New?
-View QP/C++ Revision History at: https://www.state-machine.com/qpcpp/history.html
+View QP/C++ Revision History at: https://www.state-machine.com/qpcpp/history.html 
 
 >**NOTE:** If you're interested in the latest QP/C++ version from Git,
 it is highly recommened that you download the latest
@@ -82,7 +82,7 @@ uC/OS-II and TI-RTOS, as well as with (embedded) Linux (POSIX) and Windows.
 
 ## Popularity and Maturity
 With 20 years of continuous development, over [350 commercial licensees][Cust],
-and many times more open source users worldwide, the QP™ frameworks are the
+and many times more open source users worldwide, the QPâ„¢ frameworks are the
 most popular such offering on the market. They power countless electronic
 products ranging from implantable medical devices to complex weapon systems.
 
